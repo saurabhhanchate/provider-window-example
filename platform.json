@@ -1,0 +1,21 @@
+{
+  "devtools_port": 9090,
+  "runtime": {
+    "arguments": "--security-realm=platform_uuid --enable-mesh",
+    "version": "29.108.73.19"
+  },
+  "platform": {
+    "uuid": "platform_uuid",
+    "providerUrl": "http://localhost:4200/provider.html",
+    "autoShow": true
+  },
+  "matrixSnapshot": {
+    "windows": [
+      {
+        "name": "platform_uuid_app_window",
+        "url": "http://localhost:4200/app.html",
+        "autoShow": true
+      }
+    ]
+  }
+}
